@@ -38,7 +38,7 @@ arr = list(np.array_split(data, 9))
 
 # inser values to postgres
 connection = psycopg2.connect(
-    'postgresql://ken41:kimosken41@127.0.0.1:5432/jleague')
+    'postgresql://name:pass@127.0.0.1:5432/jleague')
 section = int(findint[2])
 for i in range(len(arr)):
   li = arr[i]

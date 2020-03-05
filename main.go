@@ -62,7 +62,7 @@ type RESULT struct {
 }
 
 func jleague(c *gin.Context) {
-	db, err := sql.Open("postgres", "host=127.0.0.1 port=5432 user=ken41 password=kimosken41 dbname=jleague sslmode=disable")
+	db, err := sql.Open("postgres", "host=127.0.0.1 port=5432 user=name password=pass dbname=jleague sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
